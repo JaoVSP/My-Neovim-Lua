@@ -1,12 +1,13 @@
-# My-Neovim-Lua
+# Plugins
 
 
-# Telescope
+# [Telescope](https://github.com/nvim-telescope/telescope.nvim)
 
 ![Telescope](https://user-images.githubusercontent.com/102697831/187928686-c637fd1e-288e-4486-a3d4-575551f7ed75.png)
 
 
-# Nvim-tree
+
+# [Nvim-tree](https://github.com/kyazdani42/nvim-tree.lua)
 
 ![nvimtree](https://user-images.githubusercontent.com/102697831/187928392-ae677c3a-ea4d-4045-aaeb-432270d8d299.png)
 
