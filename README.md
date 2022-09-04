@@ -20,3 +20,8 @@ A File Explorer For Neovim Written In Lua.
 ![neovim](https://user-images.githubusercontent.com/102697831/187928459-868cd551-7a6a-4e23-90f9-8b15ae4efcec.png)
 
 [Tokyonight](https://github.com/folke/tokyonight.nvim) A dark and light Neovim theme written in Lua.
+
+
+# Others
+
+[nvim-autopairs](https://github.com/windwp/nvim-autopairs)
