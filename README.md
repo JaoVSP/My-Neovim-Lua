@@ -25,5 +25,7 @@ A File Explorer For Neovim Written In Lua.
 # Others
 
 - [plenary.nvim](https://github.com/nvim-lua/plenary.nvim)
+- [nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter)
 - [nvim-autopairs](https://github.com/windwp/nvim-autopairs)
 - [indent-blankline.nvim](https://github.com/lukas-reineke/indent-blankline.nvim)
+- [nvim-web-devicons](https://github.com/kyazdani42/nvim-web-devicons)
