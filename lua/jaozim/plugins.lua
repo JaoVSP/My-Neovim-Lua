@@ -8,8 +8,6 @@ return require('packer').startup(function()
 -- Plenary
 use "nvim-lua/plenary.nvim"
 
--- emoji
-  use 'terroo/vim-simple-emoji'
 
 -- Theme
 
