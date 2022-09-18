@@ -30,3 +30,4 @@ A File Explorer For Neovim Written In Lua.
 - [indent-blankline.nvim](https://github.com/lukas-reineke/indent-blankline.nvim)
 - [nvim-web-devicons](https://github.com/kyazdani42/nvim-web-devicons)
 - [nvim-lualine](https://github.com/nvim-lualine/lualine.nvim)
+- [nvim-ts-autotag](https://github.com/windwp/nvim-ts-autotag)
