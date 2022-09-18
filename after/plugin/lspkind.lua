@@ -11,7 +11,7 @@ require('lspkind').init({
     Constructor = "",
     Field = "ﰠ",
     Variable = "",
-    Class = "",
+    Class = "ﴯ",
     Interface = "",
     Module = "",
     Property = "ﰠ",
