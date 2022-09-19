@@ -10,9 +10,16 @@ local diagnostics = null_ls.builtins.diagnostics
 
 null_ls.setup({
     sources = {
-      formatting.prettier.with({ extra_args = { '--single-quote' }}),
+      formatting.prettier.with({ extra_args = { '--single-quote', '--no-trailling-comma' }}),
       formatting.black.with({ extra_args = { '--fast' }}),
       diagnostics.eslint_d,
       diagnostics.flake8,
     },
+
+    
+	on_attach = function(client)
+		if client.resolved_capabilities.document_formatting then
+			vim.cmd("autocmd BufWritePre <buffer> lua vim.lsp.buf.formatting()")
+		end
+	end,
 })
