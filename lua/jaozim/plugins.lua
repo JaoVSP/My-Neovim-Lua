@@ -69,10 +69,10 @@ use 'L3MON4D3/LuaSnip'
 
 
 -- Lsp
+use  'neovim/nvim-lspconfig'
 use {
-    "williamboman/mason.nvim",
-    "williamboman/mason-lspconfig.nvim",
-    "neovim/nvim-lspconfig",
+    'williamboman/mason.nvim',
+    'williamboman/mason-lspconfig.nvim'
 }
 use 'onsails/lspkind-nvim'
 use 'jose-elias-alvarez/null-ls.nvim'
