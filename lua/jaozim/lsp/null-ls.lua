@@ -10,7 +10,7 @@ local diagnostics = null_ls.builtins.diagnostics
 
 null_ls.setup({
     sources = {
-      formatting.prettier.with({ extra_args = { '--single-quote', '--no-trailling-comma' }}),
+      formatting.prettier.with({ extra_args = { '--single-quote', '--no-trailingComma"' }}),
       formatting.black.with({ extra_args = { '--fast' }}),
       diagnostics.eslint_d,
       diagnostics.flake8,
