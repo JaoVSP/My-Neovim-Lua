@@ -1,9 +1,11 @@
-# Installation and Usage
 
-Prerequisites: 
+
+# Prerequisites: 
 
 - [Neovim](https://github.com/neovim/neovim) 
 - [Node](https://github.com/nodejs/node)
+
+`git clone git@github.com:Jaozim420/My-Neovim-Lua.git`
 
 # Plugins
 
