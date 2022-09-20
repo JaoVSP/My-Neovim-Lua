@@ -1,11 +1,8 @@
-
-
 # Prerequisites: 
 
 - [Neovim](https://github.com/neovim/neovim) 
 - [Node](https://github.com/nodejs/node)
-
-`git clone git@github.com:Jaozim420/My-Neovim-Lua.git`
+- [packer.nvim](https://github.com/wbthomason/packer.nvim)
 
 # Plugins
 
