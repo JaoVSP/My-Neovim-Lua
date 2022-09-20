@@ -1,3 +1,10 @@
+# Installation and Usage
+
+Prerequisites: 
+
+- [Neovim](https://github.com/neovim/neovim) 
+- [Node](https://github.com/nodejs/node)
+
 # Plugins
 
 
