@@ -12,14 +12,19 @@ use "nvim-lua/plenary.nvim"
 -- Theme
 
 use 'folke/tokyonight.nvim'
-
+		
+		
+--Illuminate
+use { "RRethy/vim-illuminate" }
+		
+		
 --Telescope
 use {
   'nvim-telescope/telescope.nvim',
   requires = { {'nvim-lua/plenary.nvim'} }
 }
 
-
+		
 --NvimTree
 use {
 		'kyazdani42/nvim-tree.lua',
@@ -44,9 +49,11 @@ use {'nvim-treesitter/nvim-treesitter', run = ':TSUpdate'}
 --Icons
    use 'kyazdani42/nvim-web-devicons'
 
+		
 -- Identline
   use 'lukas-reineke/indent-blankline.nvim'
 
+		
 --Autopairs
 use {
 	"windwp/nvim-autopairs",
