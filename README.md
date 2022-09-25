@@ -37,3 +37,4 @@ A File Explorer For Neovim Written In Lua.
 - [nvim-web-devicons](https://github.com/kyazdani42/nvim-web-devicons)
 - [nvim-lualine](https://github.com/nvim-lualine/lualine.nvim)
 - [nvim-ts-autotag](https://github.com/windwp/nvim-ts-autotag)
+- [vim-illuminate](https://github.com/RRethy/vim-illuminate)
