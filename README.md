@@ -1,8 +1,8 @@
 # Prerequisites: 
 
-- [Neovim](https://github.com/neovim/neovim) 
+- [Neovim](https://github.com/neovim/neovim)
+- [packer.nvim](https://github.com/wbthomason/packer.nvim) 
 - [Node](https://github.com/nodejs/node)
-- [packer.nvim](https://github.com/wbthomason/packer.nvim)
 
 # Plugins
 
