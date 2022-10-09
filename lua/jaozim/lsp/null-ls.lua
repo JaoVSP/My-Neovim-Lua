@@ -15,10 +15,15 @@ null_ls.setup({
       diagnostics.eslint_d,
       diagnostics.flake8,
     },
-
-	on_attach = function(client)
-		if client.server_capabilities.documentFormattingProvider then
-			vim.cmd("autocmd BufWritePre <buffer> lua vim.lsp.buf.format {async = true}")
-		end
-	end,
-})
+on_attach = function(client, bufnr)
+    if client.server_capabilities.documentFormattingProvider then
+      vim.api.nvim_clear_autocmds { buffer = 0, group = augroup_format }
+      vim.api.nvim_create_autocmd("BufWritePre", {
+        group = augroup_format,
+        buffer = 0,
+        callback = function() vim.lsp.buf.formatting_seq_sync() end
+      })
+    end
+  end,
+  
+  })
