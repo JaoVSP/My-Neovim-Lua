@@ -14,16 +14,10 @@ null_ls.setup({
       formatting.black.with({ extra_args = { '--fast' }}),
       diagnostics.eslint_d,
       diagnostics.flake8,
-    },
-on_attach = function(client, bufnr)
-    if client.server_capabilities.documentFormattingProvider then
-      vim.api.nvim_clear_autocmds { buffer = 0, group = augroup_format }
-      vim.api.nvim_create_autocmd("BufWritePre", {
-        group = augroup_format,
-        buffer = 0,
-        callback = function() vim.lsp.buf.format() end
-      })
-    end
-  end,
-  
+    },   
+on_attach = function(client)
+		if client.resolved_capabilities.document_formatting then
+			vim.cmd("autocmd BufWritePre <buffer> lua vim.lsp.buf.formatting()")
+		end
+	end
   })
