@@ -1,3 +1,5 @@
+-- Async Formatting on save
+
 local async_formatting = function(bufnr)
     bufnr = bufnr or vim.api.nvim_get_current_buf()
 
@@ -28,6 +30,8 @@ local async_formatting = function(bufnr)
         end
     )
 end
+
+-- null-ls
 
 local null_ls = require("null-ls")
 
