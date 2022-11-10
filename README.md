@@ -16,14 +16,15 @@ telescope.nvim is a highly extendable fuzzy finder over lists. Built on the late
 
 # [Nvim-tree](https://github.com/kyazdani42/nvim-tree.lua)
 
-![nvimtree](https://user-images.githubusercontent.com/102697831/187928392-ae677c3a-ea4d-4045-aaeb-432270d8d299.png)
+![nvimtree](https://user-images.githubusercontent.com/102697831/201203267-83e84f00-3e23-4f02-8be6-44b451f42453.png)
 
 A File Explorer For Neovim Written In Lua.
 
 
 # Theme 
 
-![neovim](https://user-images.githubusercontent.com/102697831/187928459-868cd551-7a6a-4e23-90f9-8b15ae4efcec.png)
+![theme](https://user-images.githubusercontent.com/102697831/201203697-e1dc9425-3228-41ec-a4ef-cd9afa4893c0.png)
+
 
 [catppuccin](https://github.com/catppuccin/nvim) A dark and light Neovim theme written in Lua.
 
