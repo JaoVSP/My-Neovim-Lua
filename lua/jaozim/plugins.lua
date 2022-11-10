@@ -10,8 +10,7 @@ use "nvim-lua/plenary.nvim"
 
 
 -- Theme
-
-use 'folke/tokyonight.nvim'
+use { "catppuccin/nvim", as = "catppuccin" }
 		
 		
 --Illuminate
