@@ -9,7 +9,7 @@
 
 # [Telescope](https://github.com/nvim-telescope/telescope.nvim)
 
-![Telescope](https://user-images.githubusercontent.com/102697831/187928686-c637fd1e-288e-4486-a3d4-575551f7ed75.png)
+![telescope](https://user-images.githubusercontent.com/102697831/201204102-90a93b73-aa69-431a-bfa3-4bc73232266e.png)
 
 telescope.nvim is a highly extendable fuzzy finder over lists. Built on the latest awesome features from neovim core. Telescope is centered around modularity, allowing for easy customization.
 
