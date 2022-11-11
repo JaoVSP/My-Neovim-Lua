@@ -10,6 +10,7 @@ use "nvim-lua/plenary.nvim"
 
 
 -- Theme
+
 use { "catppuccin/nvim", as = "catppuccin" }
 		
 		
@@ -63,6 +64,13 @@ use {
 --Autotag
 use 'windwp/nvim-ts-autotag'
 
+
+--Gitsigns
+
+use {
+  'lewis6991/gitsigns.nvim',
+  -- tag = 'release' -- To use the latest release (do not use this if you run Neovim nightly or dev builds!)
+}
 
 -- CMP
 use 'hrsh7th/nvim-cmp'
