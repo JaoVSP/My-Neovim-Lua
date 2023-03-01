@@ -1,6 +1,6 @@
 require('lualine').setup({
   options = {
     -- ... your lualine config
-    theme = 'catppuccin'
+    theme = 'kanagawa'
     -- ... your lualine config
 }})
