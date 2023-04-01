@@ -26,7 +26,9 @@ A File Explorer For Neovim Written In Lua.
 ![theme](https://user-images.githubusercontent.com/102697831/201203697-e1dc9425-3228-41ec-a4ef-cd9afa4893c0.png)
 
 
-[catppuccin](https://github.com/catppuccin/nvim) A dark and light Neovim theme written in Lua.
+[kanagawa](https://github.com/rebelot/kanagawa.nvim) NeoVim dark colorscheme inspired by the colors of the famous painting by Katsushika Hokusai.
+
+
 
 
 # Others
