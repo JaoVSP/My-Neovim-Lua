@@ -56,8 +56,9 @@ null_ls.setup{
       formatting.prettier.with({ extra_args = { '--single-quote', '--no-trailingComma"', '--no-semi' }}),
       formatting.black.with({ extra_args = { '--fast' }}),
       formatting.rustfmt,
+      formatting.isort,
       diagnostics.eslint_d,
-      diagnostics.flake8,
+
     },   
     on_attach = function(client, bufnr)
     if client.supports_method("textDocument/formatting") then
