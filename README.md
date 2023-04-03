@@ -9,21 +9,22 @@
 
 # [Telescope](https://github.com/nvim-telescope/telescope.nvim)
 
-![telescope](https://user-images.githubusercontent.com/102697831/201204102-90a93b73-aa69-431a-bfa3-4bc73232266e.png)
+![telescope](https://user-images.githubusercontent.com/102697831/229620757-d1b8b7ec-6d33-4911-b6f5-25df32c83262.png)
 
 telescope.nvim is a highly extendable fuzzy finder over lists. Built on the latest awesome features from neovim core. Telescope is centered around modularity, allowing for easy customization.
 
 
 # [Nvim-tree](https://github.com/kyazdani42/nvim-tree.lua)
 
-![nvimtree](https://user-images.githubusercontent.com/102697831/201203267-83e84f00-3e23-4f02-8be6-44b451f42453.png)
+![nvim-tree](https://user-images.githubusercontent.com/102697831/229621088-0821237e-56cb-4537-b756-b6df0c546c22.png)
+
 
 A File Explorer For Neovim Written In Lua.
 
 
 # Theme 
 
-![theme](https://user-images.githubusercontent.com/102697831/201203697-e1dc9425-3228-41ec-a4ef-cd9afa4893c0.png)
+![theme](https://user-images.githubusercontent.com/102697831/229621008-d234562b-7e16-46a4-8de2-c9380bce9d62.png)
 
 
 [kanagawa](https://github.com/rebelot/kanagawa.nvim) NeoVim dark colorscheme inspired by the colors of the famous painting by Katsushika Hokusai.
