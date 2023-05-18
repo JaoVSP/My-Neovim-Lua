@@ -57,7 +57,6 @@ null_ls.setup{
       formatting.black.with({ extra_args = { '--fast' }}),
       formatting.rustfmt,
       formatting.isort,
-      diagnostics.eslint_d,
 
     },   
     on_attach = function(client, bufnr)
