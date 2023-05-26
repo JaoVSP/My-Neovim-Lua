@@ -1,4 +1,4 @@
 require("configs.settings")
-require("jaozim.plugins")
-require("jaozim.lsp")
+require("jao.plugins")
+require("jao.lsp")
 

@@ -55,7 +55,7 @@ null_ls.setup{
     sources = {
       formatting.prettier.with({ extra_args = { '--single-quote', '--no-trailingComma', '--no-semi' }}),
       formatting.black.with({ extra_args = { '--fast' }}),
-      formatting.rustfmt,
+      formatting.rustfmt, 
       formatting.isort,
 
     },   

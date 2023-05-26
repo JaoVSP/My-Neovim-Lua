@@ -11,9 +11,8 @@ use "nvim-lua/plenary.nvim"
 
 -- Theme
 
-use "rebelot/kanagawa.nvim"
-		
-		
+use({ 'rose-pine/neovim', as = 'rose-pine' })
+				
 --Illuminate
 use { "RRethy/vim-illuminate" }
 		
@@ -70,6 +69,10 @@ use 'windwp/nvim-ts-autotag'
 use {
   'lewis6991/gitsigns.nvim',
 }
+
+--vim-fugitive
+use 'tpope/vim-fugitive'
+
 
 -- CMP
 use 'hrsh7th/nvim-cmp'
