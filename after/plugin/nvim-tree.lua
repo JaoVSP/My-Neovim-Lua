@@ -5,4 +5,3 @@ local cmd = vim.cmd
 require'nvim-tree'.setup()
 
 set("n", "<C-a>", ":NvimTreeToggle<CR>", ns)
-set("n", "<Leader>n", ":NvimTreeFindFile<CR>", ns)
