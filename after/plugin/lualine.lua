@@ -1,6 +1,7 @@
-require('lualine').setup({
-  options = {
-    -- ... your lualine config
-    theme = 'rose-pine'
-    -- ... your lualine config
-}})
+require("lualine").setup({
+	options = {
+		-- ... your lualine config
+		theme = "rose-pine",
+		-- ... your lualine config
+	},
+})

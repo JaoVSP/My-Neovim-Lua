@@ -1,96 +1,85 @@
-vim.cmd [[packadd packer.nvim]]
+vim.cmd([[packadd packer.nvim]])
 
-return require('packer').startup(function()
+return require("packer").startup(function()
+	-- Packer
+	use("wbthomason/packer.nvim")
 
--- Packer
-  use 'wbthomason/packer.nvim'
+	-- Plenary
+	use("nvim-lua/plenary.nvim")
 
--- Plenary
-use "nvim-lua/plenary.nvim"
+	-- Theme
 
+	use({ "rose-pine/neovim", as = "rose-pine" })
 
--- Theme
+	-- Illuminate
+	use({ "RRethy/vim-illuminate" })
 
-use({ 'rose-pine/neovim', as = 'rose-pine' })
-				
---Illuminate
-use { "RRethy/vim-illuminate" }
-		
-		
---Telescope
-use {
-  'nvim-telescope/telescope.nvim',
-  requires = { {'nvim-lua/plenary.nvim'} }
-}
+	-- Telescope
+	use({
+		"nvim-telescope/telescope.nvim",
+		requires = { { "nvim-lua/plenary.nvim" } },
+	})
 
-		
---NvimTree
-use {
-		'kyazdani42/nvim-tree.lua',
+	-- NvimTree
+	use({
+		"kyazdani42/nvim-tree.lua",
 		requires = {
-			'kyazdani42/nvim-web-devicons', -- optional, for file icon
+			"kyazdani42/nvim-web-devicons", -- optional, for file icon
 		},
-		config = function() require'nvim-tree'.setup {} end
-	}
+		config = function()
+			require("nvim-tree").setup({})
+		end,
+	})
 
+	-- Treesitter
+	use({ "nvim-treesitter/nvim-treesitter", run = ":TSUpdate" })
 
+	-- Lualine
+	use({
+		"nvim-lualine/lualine.nvim",
+		requires = { "kyazdani42/nvim-web-devicons", opt = true },
+	})
 
--- Treesitter
-use {'nvim-treesitter/nvim-treesitter', run = ':TSUpdate'}
+	-- Icons
+	use("kyazdani42/nvim-web-devicons")
 
+	-- Identline
+	use("lukas-reineke/indent-blankline.nvim")
 
--- Lualine
-	use {
-		'nvim-lualine/lualine.nvim',
-		requires = { 'kyazdani42/nvim-web-devicons', opt = true }
-	}
+	-- Autopairs
+	use({
+		"windwp/nvim-autopairs",
+		config = function()
+			require("nvim-autopairs").setup({})
+		end,
+	})
 
---Icons
-   use 'kyazdani42/nvim-web-devicons'
+	-- Autotag
+	use("windwp/nvim-ts-autotag")
 
-		
--- Identline
-  use 'lukas-reineke/indent-blankline.nvim'
+	-- Gitsigns
 
-		
---Autopairs
-use {
-	"windwp/nvim-autopairs",
-    config = function() require("nvim-autopairs").setup {} end
-}
+	use({
+		"lewis6991/gitsigns.nvim",
+	})
 
+	-- vim-fugitive
+	use("tpope/vim-fugitive")
 
---Autotag
-use 'windwp/nvim-ts-autotag'
+	-- CMP
+	use("hrsh7th/nvim-cmp")
+	use("hrsh7th/cmp-nvim-lsp")
+	use("hrsh7th/cmp-buffer")
 
+	-- snippets
+	use("L3MON4D3/LuaSnip")
 
---Gitsigns
-
-use {
-  'lewis6991/gitsigns.nvim',
-}
-
---vim-fugitive
-use 'tpope/vim-fugitive'
-
-
--- CMP
-use 'hrsh7th/nvim-cmp'
-use 'hrsh7th/cmp-nvim-lsp'
-use 'hrsh7th/cmp-buffer'
-
-
--- snippets
-use 'L3MON4D3/LuaSnip'
-
-
--- Lsp
-use  'neovim/nvim-lspconfig'
-use {
-    'williamboman/mason.nvim',
-    'williamboman/mason-lspconfig.nvim'
-}
-use 'onsails/lspkind-nvim'
-use 'jose-elias-alvarez/null-ls.nvim'
-
+	-- Lsp
+	use("neovim/nvim-lspconfig")
+	use({
+		"williamboman/mason.nvim",
+		"williamboman/mason-lspconfig.nvim",
+	})
+	use("onsails/lspkind-nvim")
+	use("jose-elias-alvarez/null-ls.nvim")
 end)

@@ -1,7 +1,7 @@
-require'lspconfig'.pyright.setup{}
+require("lspconfig").pyright.setup({})
 
-require'lspconfig'.tsserver.setup{}
+require("lspconfig").tsserver.setup({})
 
-require'lspconfig'.rust_analyzer.setup{}
+require("lspconfig").rust_analyzer.setup({})
 
-require'lspconfig'.clangd.setup{}
+require("lspconfig").clangd.setup({})
