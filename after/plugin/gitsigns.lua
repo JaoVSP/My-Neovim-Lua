@@ -10,5 +10,6 @@ require("gitsigns").setup({
 
 		-- Actions
 		map("n", "<C-g>", gs.blame_line)
+		map("n", "<Leader><Leader>", gs.preview_hunk)
 	end,
 })
