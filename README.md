@@ -3,6 +3,9 @@
 - [Neovim](https://github.com/neovim/neovim)
 - [packer.nvim](https://github.com/wbthomason/packer.nvim)
 - [Node](https://github.com/nodejs/node)
+- [Python](https://www.python.org/)
+- [Lua](https://www.lua.org/)
+- [LuaJit](https://luajit.org/)
 
 # Plugins
 
