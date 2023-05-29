@@ -1,7 +1,4 @@
-local set = vim.api.nvim_set_keymap
-local ns = { noremap = true, silent = true }
-local cmd = vim.cmd
+local builtin = require("telescope.builtin")
 
-set("n", "<Leader><Leader>", ":Telescope find_files<CR>", ns)
-set("n", "<C-p>", ":Telescope buffers<CR>", ns)
-set("n", "<C-l>", ":Telescope current_buffer_fuzzy_find<CR>", ns)
+vim.keymap.set("n", "<C-p>", builtin.buffers, {})
+vim.keymap.set("n", "<C-l>", builtin.current_buffer_fuzzy_find, {})
