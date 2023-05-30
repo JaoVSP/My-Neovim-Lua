@@ -1,7 +1,5 @@
-require("lspconfig").pyright.setup({})
-
-require("lspconfig").tsserver.setup({})
-
-require("lspconfig").rust_analyzer.setup({})
-
-require("lspconfig").clangd.setup({})
+local lspconfig = require('lspconfig')
+lspconfig.pyright.setup({})
+lspconfig.tsserver.setup({})
+lspconfig.rust_analyzer.setup({})
+lspconfig.eslint.setup({})
