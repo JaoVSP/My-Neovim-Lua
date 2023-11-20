@@ -81,5 +81,5 @@ return require("packer").startup(function()
 		"williamboman/mason-lspconfig.nvim",
 	})
 	use("onsails/lspkind-nvim")
-	use("jose-elias-alvarez/null-ls.nvim")
+	use("nvimtools/none-ls.nvim")
 end)
