@@ -1,7 +1,7 @@
 # Prerequisites:
 
 - [Neovim](https://github.com/neovim/neovim)
-- [packer.nvim](https://github.com/wbthomason/packer.nvim)
+- [lazy.nvim](https://github.com/folke/lazy.nvim)
 - [Node](https://github.com/nodejs/node)
 - [Python](https://www.python.org/)
 - [Lua](https://www.lua.org/)
@@ -25,7 +25,7 @@ A File Explorer For Neovim Written In Lua.
 
 <img width="1080" alt="rose-pine" src="https://github.com/Jao420/My-Neovim-Lua/assets/102697831/dd3296b1-27ef-4424-8920-f76abbdac0ba">
 
-[rose-pine](https://github.com/rose-pine/neovim) All natural pine, faux fur and a bit of soho vibes for the classy minimalist.
+[Solarized Osaka](https://github.com/craftzdog/solarized-osaka.nvim)
 
 # Others
 
@@ -38,4 +38,3 @@ A File Explorer For Neovim Written In Lua.
 - [nvim-ts-autotag](https://github.com/windwp/nvim-ts-autotag)
 - [vim-illuminate](https://github.com/RRethy/vim-illuminate)
 - [gitsigns](https://github.com/lewis6991/gitsigns.nvim)
-- [vim-fugitive](https://github.com/tpope/vim-fugitive)
