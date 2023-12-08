@@ -1,5 +1,4 @@
-return {
-	"windwp/nvim-autopairs",
+require("nvim-autopairs").setup({
 
 	config = function()
 		local status_ok, npairs = pcall(require, "nvim-autopairs")
@@ -35,4 +34,4 @@ return {
 		end
 		cmp.event:on("confirm_done", cmp_autopairs.on_confirm_done({ map_char = { tex = "" } }))
 	end,
-}
+})
