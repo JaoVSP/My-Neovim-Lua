@@ -24,6 +24,13 @@ cmp.setup({
 		{ name = "nvim_lsp" },
 		{ name = "buffer" },
 	}),
+	window = {
+		completion = cmp.config.window.bordered({
+			winhighlight = "FloatBorder:VertSplit",
+			scrollbar = false,
+		}),
+		documentation = cmp.config.window.bordered(),
+	},
 	formatting = {
 		format = lspkind.cmp_format({ with_text = false, maxwidth = 50 }),
 	},
