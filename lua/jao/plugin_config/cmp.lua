@@ -1,15 +1,7 @@
-local status, cmp = pcall(require, "cmp")
-if not status then
-	return
-end
+local cmp = require'cmp'
 local lspkind = require("lspkind")
 
 cmp.setup({
-	snippet = {
-		expand = function(args)
-			require("luasnip").lsp_expand(args.body)
-		end,
-	},
 	mapping = cmp.mapping.preset.insert({
 		["<C-d>"] = cmp.mapping.scroll_docs(-4),
 		["<C-f>"] = cmp.mapping.scroll_docs(4),
@@ -26,8 +18,9 @@ cmp.setup({
 	}),
 	window = {
 		completion = cmp.config.window.bordered({
-			winhighlight = "FloatBorder:VertSplit",
+			winhighlight = "FloatBorder:VertSplit,CursorLine:PmenuSel",
 			scrollbar = false,
+                        
 		}),
 		documentation = cmp.config.window.bordered(),
 	},
@@ -35,8 +28,3 @@ cmp.setup({
 		format = lspkind.cmp_format({ with_text = false, maxwidth = 50 }),
 	},
 })
-
-vim.cmd([[
-  set completeopt=menuone,noinsert,noselect
-  highlight! default link CmpItemKind CmpItemMenuDefault
-]])
