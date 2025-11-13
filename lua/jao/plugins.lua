@@ -6,7 +6,6 @@ require("lazy").setup({
 	"lewis6991/gitsigns.nvim",
 	"lukas-reineke/indent-blankline.nvim",
 	"neovim/nvim-lspconfig",
-	"onsails/lspkind-nvim",
 	"windwp/nvim-ts-autotag",
 	"nvim-treesitter/nvim-treesitter",
 	"nvim-lualine/lualine.nvim",

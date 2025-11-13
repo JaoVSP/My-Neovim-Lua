@@ -1,5 +1,4 @@
-local cmp = require'cmp'
-local lspkind = require("lspkind")
+local cmp = require("cmp")
 
 cmp.setup({
 	mapping = cmp.mapping.preset.insert({
@@ -20,11 +19,7 @@ cmp.setup({
 		completion = cmp.config.window.bordered({
 			winhighlight = "FloatBorder:VertSplit,CursorLine:PmenuSel",
 			scrollbar = false,
-                        
 		}),
 		documentation = cmp.config.window.bordered(),
-	},
-	formatting = {
-		format = lspkind.cmp_format({ with_text = false, maxwidth = 50 }),
 	},
 })

@@ -5,7 +5,6 @@ require("nvim-treesitter.configs").setup({
 		"python",
 		"typescript",
 		"tsx",
-		"rust",
 		"cpp",
 		"c",
 		"prisma",
