@@ -1,5 +1,3 @@
 require("configs.settings")
 require("configs.keymaps")
 require("configs.lazy")
-require("jao.plugin_config")
-require("jao.plugins")

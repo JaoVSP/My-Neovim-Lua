@@ -1,6 +1,6 @@
 local keymap = vim.keymap
 
--- Delete a word
+-- Delete word
 keymap.set("n", "<A-BS>", "diw")
 
 -- Select all

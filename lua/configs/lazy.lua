@@ -9,8 +9,7 @@ if not vim.loop.fs_stat(lazypath) then
 		lazypath,
 	})
 end
+
 vim.opt.rtp:prepend(lazypath)
 
-local plugins = require("jao.plugins")
-
-require("lazy").setup(plugins)
+require("lazy").setup({ { import = "plugins" }, { import = "plugins.lsp" } })
