@@ -7,6 +7,8 @@ return {
 			vim.lsp.enable("eslint")
 			vim.lsp.enable("clangd")
 			vim.lsp.enable("rust_analyzer")
+
+			vim.keymap.set("n", "<leader>e", vim.diagnostic.open_float)
 		end,
 	},
 }
